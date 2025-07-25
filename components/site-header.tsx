@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Leaf, Menu } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 export function SiteHeader() {
@@ -17,7 +18,7 @@ export function SiteHeader() {
     <header className="fixed inset-0 h-fit top-0 z-50 w-full border-b border-sage-green-100 bg-white/70 backdrop-blur-sm">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-serif text-2xl font-bold text-sage-green-700">
-          <Leaf className="h-6 w-6 text-sage-green-500" />
+          <Image src="/nuroot-removebg-preview.png" alt="NuRoot Naturals Logo" width={60} height={60} />
           NuRoot Naturals
         </Link>
 

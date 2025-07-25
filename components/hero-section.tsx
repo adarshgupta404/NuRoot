@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion"; // Import motion from framer-motion
-import { Leaf } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -27,7 +26,7 @@ export function HeroSection() {
       className="relative  h-[100dvh] flex items-center justify-center text-center overflow-hidden"
     >
       <motion.div
-        initial={{ scale: 1.05 }}
+        initial={{ scale: 1.15 }}
         animate={{ scale: 1 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
         className="absolute inset-0 z-0"
@@ -48,7 +47,9 @@ export function HeroSection() {
         animate="visible"
       >
         <motion.div variants={itemVariants} className="flex items-center justify-center gap-3">
-          <Leaf className="h-10 w-10 text-sage-green-300" />
+          <Image src="/nuroot-removebg-preview.png" className="w-[300px] md:w-[350px]" alt="NuRoot Naturals Logo" width={400} height={400} />
+        </motion.div>
+        <motion.div variants={itemVariants} className="flex items-center justify-center gap-3">
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold drop-shadow-lg">NuRoot Naturals</h1>
         </motion.div>
         <motion.p
