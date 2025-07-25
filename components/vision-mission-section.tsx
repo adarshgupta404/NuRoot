@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
 import { motion, type Variants } from "framer-motion"; // Import type Variants
-import { Sparkles, Target } from "lucide-react"
+import { Sparkles, Target } from "lucide-react";
 
 export function VisionMissionSection() {
   const sectionVariants: Variants = {
@@ -16,13 +16,13 @@ export function VisionMissionSection() {
         staggerChildren: 0.3,
       },
     },
-  }
+  };
 
   const itemVariants: Variants = {
     // Explicitly type as Variants
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
-  }
+  };
 
   return (
     <motion.section
@@ -34,18 +34,22 @@ export function VisionMissionSection() {
       viewport={{ once: true, amount: 0.3 }}
     >
       <div className="container px-4 md:px-6 text-center">
-        <h2 className="font-serif text-4xl md:text-5xl font-bold text-sage-green-700 mb-12">Our Vision & Mission</h2>
+        <h2 className="font-serif text-4xl md:text-5xl font-bold text-sage-green-700 mb-12">
+          Our Vision & Mission
+        </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <motion.div
             variants={itemVariants}
             className="bg-white p-8 rounded-xl shadow-lg flex flex-col items-center text-center h-full"
           >
             <Target className="h-16 w-16 text-sage-green-500 mb-6" />
-            <h3 className="font-serif text-3xl font-bold text-walnut-brown-700 mb-4">Our Vision</h3>
+            <h3 className="font-serif text-3xl font-bold text-walnut-brown-700 mb-4">
+              Our Vision
+            </h3>
             <p className="text-lg text-walnut-brown-600 leading-relaxed">
-              To be the leading provider of premium, sustainably sourced dry fruits, inspiring a global movement towards
-              healthier, more conscious living. We envision a future where natural goodness is accessible to everyone,
-              fostering well-being for both people and the planet.
+              We want to be the top brand for high-quality, natural dry fruits.
+              Our goal is to help people live healthier lives and take better
+              care of the planet.
             </p>
           </motion.div>
           <motion.div
@@ -53,15 +57,17 @@ export function VisionMissionSection() {
             className="bg-white p-8 rounded-xl shadow-lg flex flex-col items-center text-center h-full"
           >
             <Sparkles className="h-16 w-16 text-sage-green-500 mb-6" />
-            <h3 className="font-serif text-3xl font-bold text-walnut-brown-700 mb-4">Our Mission</h3>
+            <h3 className="font-serif text-3xl font-bold text-walnut-brown-700 mb-4">
+              Our Mission
+            </h3>
             <p className="text-lg text-walnut-brown-600 leading-relaxed">
-              To meticulously select and deliver the highest quality, chemical-free dry fruits, ensuring every product
-              reflects our commitment to purity and wholesomeness. We strive to empower our community with nutritious
-              choices while upholding ethical sourcing practices and championing eco-friendly initiatives.
+              We carefully choose the best, chemical-free dry fruits and bring
+              them to you. We aim to support healthy eating, use eco-friendly
+              methods, and always do the right thing when sourcing our products.
             </p>
           </motion.div>
         </div>
       </div>
     </motion.section>
-  )
+  );
 }

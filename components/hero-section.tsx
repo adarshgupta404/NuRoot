@@ -12,7 +12,7 @@ export function HeroSection() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2, // Stagger animations for children
+        staggerChildren: 0.2,
       },
     },
   }
