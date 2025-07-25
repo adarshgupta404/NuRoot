@@ -27,7 +27,7 @@ export function VisionMissionSection() {
   return (
     <motion.section
       id="vision-mission"
-      className="py-16 md:py-24 bg-ivory-beige"
+      className="py-16 md:py-24 md:h-dvh bg-ivory-beige md:flex md:flex-col md:items-center md:justify-center text-walnut-brown-700"
       variants={sectionVariants}
       initial="hidden"
       whileInView="visible"
