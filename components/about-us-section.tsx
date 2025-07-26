@@ -9,7 +9,7 @@ export function AboutUsSection() {
             Rooted in Purity, Committed to Nature
           </h2>
           <p className="text-lg text-walnut-brown-700 max-w-xl mx-auto md:mx-0">
-            At NuRoot Naturals, we believe in the power of nature's bounty. We are dedicated to sustainably sourcing the
+            At NutRoot Naturals, we believe in the power of nature's bounty. We are dedicated to sustainably sourcing the
             finest dry fruits, ensuring every product is 100% chemical-free and packed with natural goodness. Our
             mission is to bring health and wholesomeness directly from nature to your home, with a deep commitment to
             eco-consciousness.

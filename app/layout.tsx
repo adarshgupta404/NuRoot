@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const playfairDisplay = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair-display" })
 
 export const metadata: Metadata = {
-  title: "NuRoot Naturals - Wholesome Goodness. Pure by Nature.",
+  title: "NutRoot Naturals - Wholesome Goodness. Pure by Nature.",
   description:
-    "NuRoot Naturals offers premium, sustainably sourced, chemical-free dry fruits. Experience purity, health, and eco-consciousness.",
+    "NutRoot Naturals offers premium, sustainably sourced, chemical-free dry fruits. Experience purity, health, and eco-consciousness.",
     generator: 'v0.dev'
 }
 

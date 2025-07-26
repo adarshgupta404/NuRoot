@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 const testimonials = [
   {
     quote:
-      "NuRoot Naturals has transformed my snacking habits. The quality is unmatched, and I love knowing they're chemical-free!",
+      "NutRoot Naturals has transformed my snacking habits. The quality is unmatched, and I love knowing they're chemical-free!",
     name: "Sarah J.",
     avatar: "/placeholder.svg?height=64&width=64",
   },
@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     quote:
-      "The best dry fruits I've ever tasted! The eco-friendly packaging is a huge plus. Highly recommend NuRoot Naturals.",
+      "The best dry fruits I've ever tasted! The eco-friendly packaging is a huge plus. Highly recommend NutRoot Naturals.",
     name: "Maria K.",
     avatar: "/placeholder.svg?height=64&width=64",
   },

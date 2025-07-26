@@ -30,7 +30,7 @@ export function WhyChooseUsSection() {
       {/* Changed to white */}
       <div className="container px-4 md:px-6 text-center">
         <h2 className="font-serif text-4xl md:text-5xl font-bold text-sage-green-700 mb-12">
-          Why Choose NuRoot Naturals?
+          Why Choose NutRoot Naturals?
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (

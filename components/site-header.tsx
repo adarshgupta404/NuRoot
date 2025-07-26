@@ -19,7 +19,7 @@ export function SiteHeader() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 font-serif text-2xl font-bold text-sage-green-700">
           <Image src="/nuroot-removebg-preview.png" alt="NuRoot Naturals Logo" width={60} height={60} />
-          NuRoot Naturals
+          NutRoot Naturals
         </Link>
 
         {/* Desktop Navigation */}
@@ -81,7 +81,7 @@ export function SiteHeader() {
             <SheetContent side="right" className="bg-white">
               <Link href="/" className="flex items-center gap-2 font-serif text-xl font-bold text-sage-green-700 mb-6">
                 <Leaf className="h-5 w-5 text-sage-green-500" />
-                NuRoot Naturals
+                NutRoot Naturals
               </Link>
               <nav className="grid gap-4 text-lg font-medium">
                 <Link

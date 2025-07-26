@@ -39,7 +39,7 @@ export function SiteFooter() {
           <div className="flex flex-col space-y-2">
             <div className="flex items-center gap-2 text-walnut-brown-200">
               <Mail className="h-4 w-4" />
-              <span>info@nurootnaturals.com</span>
+              <span>info@nutrootnaturals.com</span>
             </div>
             <div className="flex items-center gap-2 text-walnut-brown-200">
               <Phone className="h-4 w-4" />
@@ -71,7 +71,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="container px-4 md:px-6 border-t border-sage-green-700 pt-8 mt-8 text-center text-sm text-walnut-brown-400">
-        <p>Copyright © 2025 NuRoot Naturals. All rights reserved.</p>
+        <p>Copyright © 2025 NutRoot Naturals. All rights reserved.</p>
       </div>
     </footer>
   )
